@@ -1,0 +1,11 @@
+# Demo application for scoped context - configuration
+
+## Default logging configuration
+logging:
+  level:
+    root: ERROR # Default logging level for all
+    org.springframework.web: ERROR
+    org.hibernate: ERROR
+    org.hibernate.SQL: ERROR
+    org.hibernate.type.descriptor.sql.BasicBinder: ERROR
+    fr.olyzia.demo.scoped: DEBUG
